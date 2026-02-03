@@ -1,8 +1,16 @@
 <h1 align="center">👋 Hi, I'm Andrii</h1>
-<h3 align="center">🚀 Developer | Building cool things</h3>
+<h3 align="center">🐘 PHP / Laravel Developer</h3>
 
 <p align="center">
-  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=22&pause=900&center=true&vCenter=true&width=650&lines=Frontend+%2F+Fullstack+Developer;I+build+beautiful+UI+%26+clean+code;React+%7C+TypeScript+%7C+Node.js;Always+learning+and+shipping" />
+  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=22&pause=900&center=true&vCenter=true&width=720&lines=PHP+%7C+Laravel+Developer;Building+REST+APIs+%26+Web+Apps;Clean+Architecture+%2B+Best+Practices;MySQL+%7C+Redis+%7C+Docker" />
+</p>
+
+<p align="center">
+  <img src="https://img.shields.io/badge/PHP-0d1117?style=for-the-badge&logo=php" />
+  <img src="https://img.shields.io/badge/Laravel-0d1117?style=for-the-badge&logo=laravel" />
+  <img src="https://img.shields.io/badge/MySQL-0d1117?style=for-the-badge&logo=mysql" />
+  <img src="https://img.shields.io/badge/Redis-0d1117?style=for-the-badge&logo=redis" />
+  <img src="https://img.shields.io/badge/Docker-0d1117?style=for-the-badge&logo=docker" />
 </p>
 
 <p align="center">
