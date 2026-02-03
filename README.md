@@ -1,15 +1,23 @@
 <h1 align="center">👋 Hi, I'm Andrii</h1>
-<h3 align="center">🐘 PHP / Laravel Developer</h3>
+<h3 align="center">🐘 Full-Stack PHP / Laravel Developer</h3>
 
 <p align="center">
-  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=22&pause=900&center=true&vCenter=true&width=720&lines=PHP+%7C+Laravel+Developer;Building+REST+APIs+%26+Web+Apps;Clean+Architecture+%2B+Best+Practices;MySQL+%7C+Redis+%7C+Docker" />
+  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=22&pause=900&center=true&vCenter=true&width=820&lines=Full-Stack+PHP+%2B+Laravel+Developer;Building+Web+Apps+from+Backend+to+UI;REST+APIs+%7C+Auth+%7C+Payments;Laravel+%7C+Vue%2FReact+%7C+Docker" />
 </p>
 
 <p align="center">
+  <!-- Backend -->
   <img src="https://img.shields.io/badge/PHP-0d1117?style=for-the-badge&logo=php" />
   <img src="https://img.shields.io/badge/Laravel-0d1117?style=for-the-badge&logo=laravel" />
   <img src="https://img.shields.io/badge/MySQL-0d1117?style=for-the-badge&logo=mysql" />
   <img src="https://img.shields.io/badge/Redis-0d1117?style=for-the-badge&logo=redis" />
+
+  <!-- Frontend -->
+  <img src="https://img.shields.io/badge/JavaScript-0d1117?style=for-the-badge&logo=javascript" />
+  <img src="https://img.shields.io/badge/Vue.js-0d1117?style=for-the-badge&logo=vue.js" />
+  <img src="https://img.shields.io/badge/React-0d1117?style=for-the-badge&logo=react" />
+
+  <!-- DevOps -->
   <img src="https://img.shields.io/badge/Docker-0d1117?style=for-the-badge&logo=docker" />
 </p>
 
