@@ -2,18 +2,18 @@
 <!-- HERO -->
 <!-- ===================== -->
 
-<h1 align="center">Andrii Shitik</h1>
-<h3 align="center">Full-Stack PHP / Laravel Developer</h3>
+<h1 align="center">👋 Hi, I'm Andrii</h1>
+<h3 align="center">💼 Full-Stack PHP / Laravel Developer</h3>
 
 <p align="center">
   <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=20&pause=1000&center=true&vCenter=true&width=900&lines=Full-Stack+PHP+%26+Laravel+Developer;REST+APIs+%7C+Databases+%7C+Linux;Backend+Architecture+%26+Clean+Code;Using+AI+to+improve+developer+productivity" />
 </p>
 
 <p align="center">
-  <a href="https://www.linkedin.com/in/andrey-shytik-59a02015a/">LinkedIn</a> •
-  <a href="https://t.me/YOUR_TELEGRAM">Telegram</a> •
-  <a href="https://wa.me/YOUR_PHONE">WhatsApp</a> •
-  <a href="mailto:blactelin@gmail.com">Email</a>
+  🔗 <a href="https://www.linkedin.com/in/YOUR_LINKEDIN">LinkedIn</a> •
+  💬 <a href="https://t.me/YOUR_TELEGRAM">Telegram</a> •
+  📱 <a href="https://wa.me/YOUR_PHONE">WhatsApp</a> •
+  ✉️ <a href="mailto:blactelin@gmail.com">Email</a>
 </p>
 
 <hr/>
@@ -22,8 +22,8 @@
 <!-- ABOUT -->
 <!-- ===================== -->
 
-## About
-Full-stack developer specializing in **PHP and Laravel** with strong backend focus.  
+## 🧠 About
+Full-stack developer specializing in **PHP and Laravel** with a strong backend focus.  
 Experienced in building **RESTful APIs**, database-driven applications, and Linux-based infrastructure.  
 Comfortable working across the full development lifecycle — from architecture and implementation to deployment.
 
@@ -33,7 +33,7 @@ Comfortable working across the full development lifecycle — from architecture 
 <!-- SKILLS -->
 <!-- ===================== -->
 
-## Technical Skills
+## 🧩 Technical Skills
 
 <table align="center">
   <tr>
@@ -73,7 +73,7 @@ Comfortable working across the full development lifecycle — from architecture 
 </table>
 
 <p align="center">
-  <b>English:</b> Intermediate (B1)
+  🌍 <b>English:</b> Intermediate (B1)
 </p>
 
 <hr/>
@@ -82,7 +82,7 @@ Comfortable working across the full development lifecycle — from architecture 
 <!-- PROJECTS -->
 <!-- ===================== -->
 
-## Featured Projects
+## 📌 Featured Projects
 
 - **Laravel REST API**  
   Authentication (JWT / Sanctum), CRUD operations, clean architecture principles
@@ -102,6 +102,6 @@ Comfortable working across the full development lifecycle — from architecture 
 <!-- ACTIVITY -->
 <!-- ===================== -->
 
-## GitHub Activity
+## 🔁 GitHub Activity
 
 ![Snake animation](https://github.com/blactelin/blactelin/blob/output/github-contribution-grid-snake-dark.svg)
