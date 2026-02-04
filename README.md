@@ -10,7 +10,7 @@
 </p>
 
 <p align="center">
-  <a href="https://www.linkedin.com/in/YOUR_LINKEDIN">LinkedIn</a> •
+  <a href="https://www.linkedin.com/in/https://www.linkedin.com/in/andrey-shytik-59a02015a/">LinkedIn</a> •
   <a href="https://t.me/YOUR_TELEGRAM">Telegram</a> •
   <a href="https://wa.me/YOUR_PHONE">WhatsApp</a> •
   <a href="mailto:blactelin@gmail.com">Email</a>
