@@ -40,7 +40,7 @@
 - **Infrastructure / DevOps** — Docker, Linux, Nginx, deployment  
 
 ### 📬 Contacts
-[![LinkedIn](https://img.shields.io/badge/-LinkedIn-333?style=for-the-badge&logo=linkedin&logoColor=0A66C2)](https://www.linkedin.com/in/YOUR_LINKEDIN)
+[![LinkedIn](https://img.shields.io/badge/-LinkedIn-333?style=for-the-badge&logo=linkedin&logoColor=0A66C2)](https://www.linkedin.com/in/andrey-shytik-59a02015a)
 [![Telegram](https://img.shields.io/badge/-Telegram-333?style=for-the-badge&logo=telegram&logoColor=27A0D9)](https://t.me/YOUR_TELEGRAM)
 [![WhatsApp](https://img.shields.io/badge/-WhatsApp-333?style=for-the-badge&logo=whatsapp&logoColor=25D366)](https://wa.me/YOUR_PHONE)
 [![Gmail](https://img.shields.io/badge/-Gmail-333?style=for-the-badge&logo=gmail&logoColor=EA4335)](mailto:blactelin@gmail.com)
