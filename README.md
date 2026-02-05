@@ -6,6 +6,12 @@
   <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=22&pause=900&center=true&vCenter=true&width=900&lines=Full-Stack+PHP+%2B+Laravel+Developer;REST+APIs+%7C+Auth+%7C+Databases;Backend+Logic+%2B+Clean+UI;Using+AI+to+work+smarter" />
 </p>
 
+### 👨‍💻 About Me
+
+Full-Stack PHP / Laravel Developer focused on backend, REST APIs, and clean architecture.  
+Experienced with databases, Linux environments, and Docker-based workflows.  
+Open to new opportunities.
+
 ### 🧰 My tech stack
 ![PHP](https://img.shields.io/badge/-PHP-333?style=for-the-badge&logo=php)
 ![Laravel](https://img.shields.io/badge/-Laravel-333?style=for-the-badge&logo=laravel)
