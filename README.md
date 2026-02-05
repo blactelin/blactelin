@@ -1,107 +1,45 @@
-<!-- ===================== -->
-<!-- HERO -->
-<!-- ===================== -->
+## 👋 Hi, I'm Andrii
+**Full-Stack PHP / Laravel Developer**
 
-<h1 align="center">👋 Hi, I'm Andrii</h1>
-<h3 align="center">💼 Full-Stack PHP / Laravel Developer</h3>
+### 🧰 My tech stack
+![PHP](https://img.shields.io/badge/-PHP-333?style=for-the-badge&logo=php)
+![Laravel](https://img.shields.io/badge/-Laravel-333?style=for-the-badge&logo=laravel)
+![Composer](https://img.shields.io/badge/-Composer-333?style=for-the-badge&logo=composer)
+![Git](https://img.shields.io/badge/-Git-333?style=for-the-badge&logo=git)
+![GitHub](https://img.shields.io/badge/-GitHub-333?style=for-the-badge&logo=github)
 
-<p align="center">
-  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=20&pause=1000&center=true&vCenter=true&width=900&lines=Full-Stack+PHP+%26+Laravel+Developer;REST+APIs+%7C+Databases+%7C+Linux;Backend+Architecture+%26+Clean+Code;Using+AI+to+improve+developer+productivity" />
-</p>
+![MySQL](https://img.shields.io/badge/-MySQL-333?style=for-the-badge&logo=mysql)
+![PostgreSQL](https://img.shields.io/badge/-PostgreSQL-333?style=for-the-badge&logo=postgresql)
+![MongoDB](https://img.shields.io/badge/-MongoDB-333?style=for-the-badge&logo=mongodb)
 
-<p align="center">
-  🔗 <a href="https://www.linkedin.com/in/andrey-shytik-59a02015a">LinkedIn</a> •
-  💬 <a href="https://t.me/blactelin_dev">Telegram</a> •
-  📱 <a href="https://wa.me/YOUR_PHONE">WhatsApp</a> •
-  ✉️ <a href="mailto:blactelin@gmail.com">Email</a>
-</p>
+![Linux](https://img.shields.io/badge/-Linux-333?style=for-the-badge&logo=linux)
+![Docker](https://img.shields.io/badge/-Docker-333?style=for-the-badge&logo=docker)
+![Nginx](https://img.shields.io/badge/-Nginx-333?style=for-the-badge&logo=nginx)
+![Apache](https://img.shields.io/badge/-Apache-333?style=for-the-badge&logo=apache)
 
-<hr/>
+![JavaScript](https://img.shields.io/badge/-JavaScript-333?style=for-the-badge&logo=javascript)
+![Bootstrap](https://img.shields.io/badge/-Bootstrap-333?style=for-the-badge&logo=bootstrap)
 
-<!-- ===================== -->
-<!-- ABOUT -->
-<!-- ===================== -->
+![NeoVim](https://img.shields.io/badge/-NeoVim-333?style=for-the-badge&logo=neovim)
+![Bash](https://img.shields.io/badge/-Bash-333?style=for-the-badge&logo=gnubash)
+![Zsh](https://img.shields.io/badge/-Zsh-333?style=for-the-badge)
 
-## 🧠 About
-Full-stack developer specializing in **PHP and Laravel** with a strong backend focus.  
-Experienced in building **RESTful APIs**, database-driven applications, and Linux-based infrastructure.  
-Comfortable working across the full development lifecycle — from architecture and implementation to deployment.
+### 🤖 AI & Language
+![AI Tools](https://img.shields.io/badge/-AI%20Tools%3A%20Codex%2C%20AI%20Assistant-333?style=for-the-badge)
+![English](https://img.shields.io/badge/-English%3A%20Intermediate%20(B1)-333?style=for-the-badge)
 
----
+### 📌 Featured Projects
+- **Laravel REST API** — Auth (JWT/Sanctum), CRUD, clean architecture  
+- **Full-Stack Laravel App** — Backend + UI (Blade/Bootstrap/Vue)  
+- **Database-focused Project** — MySQL / PostgreSQL / MongoDB  
+- **Infrastructure / DevOps** — Docker, Linux, Nginx, deployment  
 
-<!-- ===================== -->
-<!-- SKILLS -->
-<!-- ===================== -->
+### 📬 Contacts
+[![LinkedIn](https://img.shields.io/badge/-LinkedIn-333?style=for-the-badge&logo=linkedin&logoColor=0A66C2)](https://www.linkedin.com/in/YOUR_LINKEDIN)
+[![Telegram](https://img.shields.io/badge/-Telegram-333?style=for-the-badge&logo=telegram&logoColor=27A0D9)](https://t.me/YOUR_TELEGRAM)
+[![WhatsApp](https://img.shields.io/badge/-WhatsApp-333?style=for-the-badge&logo=whatsapp&logoColor=25D366)](https://wa.me/YOUR_PHONE)
+[![Gmail](https://img.shields.io/badge/-Gmail-333?style=for-the-badge&logo=gmail&logoColor=EA4335)](mailto:blactelin@gmail.com)
+[![GitHub](https://img.shields.io/badge/-GitHub-333?style=for-the-badge&logo=github&logoColor=fff)](https://github.com/blactelin)
 
-## 🧩 Technical Skills
-
-<table align="center">
-  <tr>
-    <td align="center"><b>Backend</b></td>
-    <td align="center"><b>Databases</b></td>
-    <td align="center"><b>Frontend</b></td>
-    <td align="center"><b>DevOps</b></td>
-    <td align="center"><b>Workflow</b></td>
-  </tr>
-  <tr>
-    <td align="center">
-      PHP<br>
-      Laravel<br>
-      Composer
-    </td>
-    <td align="center">
-      MySQL<br>
-      PostgreSQL<br>
-      MongoDB
-    </td>
-    <td align="center">
-      JavaScript<br>
-      Bootstrap
-    </td>
-    <td align="center">
-      Linux<br>
-      Apache / Nginx<br>
-      Docker<br>
-      Git
-    </td>
-    <td align="center">
-      NeoVim<br>
-      AI Assistant<br>
-      OpenAI Codex
-    </td>
-  </tr>
-</table>
-
-<p align="center">
-  🌍 <b>English:</b> Intermediate (B1)
-</p>
-
-<hr/>
-
-<!-- ===================== -->
-<!-- PROJECTS -->
-<!-- ===================== -->
-
-## 📌 Featured Projects
-
-- **Laravel REST API**  
-  Authentication (JWT / Sanctum), CRUD operations, clean architecture principles
-
-- **Full-Stack Laravel Application**  
-  Backend + UI (Blade / Bootstrap / Vue), real-world business logic
-
-- **Database-Focused Project**  
-  Relational and NoSQL databases, migrations, indexing, performance considerations
-
-- **Infrastructure / DevOps**  
-  Dockerized environments, Linux servers, Nginx configuration, deployment workflows
-
-<hr/>
-
-<!-- ===================== -->
-<!-- ACTIVITY -->
-<!-- ===================== -->
-
-## 🔁 GitHub Activity
-
+### 🐍 GitHub Activity
 ![Snake animation](https://github.com/blactelin/blactelin/blob/output/github-contribution-grid-snake-dark.svg)
