@@ -1,33 +1,37 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="180" viewBox="0 0 1200 180">
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="150" viewBox="0 0 1200 150">
   <defs>
-    <radialGradient id="bg" cx="50%" cy="45%" r="80%">
-      <stop offset="0%" stop-color="#0b6a34"/>
-      <stop offset="65%" stop-color="#062414"/>
-      <stop offset="100%" stop-color="#03140b"/>
+    <!-- Deep dark gradient -->
+    <linearGradient id="bg" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#02110b"/>
+      <stop offset="50%" stop-color="#041a12"/>
+      <stop offset="100%" stop-color="#020d08"/>
+    </linearGradient>
+
+    <!-- Soft green ambient -->
+    <radialGradient id="ambient" cx="30%" cy="50%" r="60%">
+      <stop offset="0%" stop-color="#00ff88" stop-opacity="0.15"/>
+      <stop offset="60%" stop-color="#00ff88" stop-opacity="0.05"/>
+      <stop offset="100%" stop-color="#00ff88" stop-opacity="0"/>
     </radialGradient>
 
-    <pattern id="micro" width="7" height="7" patternUnits="userSpaceOnUse">
-      <circle cx="3.5" cy="3.5" r="1.05" fill="#0f3d1f"/>
+    <!-- Microgrid subtle -->
+    <pattern id="micro" width="8" height="8" patternUnits="userSpaceOnUse">
+      <circle cx="4" cy="4" r="0.8" fill="#0b2a1d"/>
     </pattern>
-
-    <radialGradient id="vig" cx="50%" cy="50%" r="75%">
-      <stop offset="55%" stop-color="#000" stop-opacity="0"/>
-      <stop offset="100%" stop-color="#000" stop-opacity="0.55"/>
-    </radialGradient>
   </defs>
 
-  <!-- Background -->
-  <rect width="1200" height="180" fill="url(#bg)"/>
-  <rect width="1200" height="180" fill="url(#micro)" opacity="0.55"/>
-  <rect width="1200" height="180" fill="url(#vig)"/>
+  <!-- Background layers -->
+  <rect width="1200" height="150" fill="url(#bg)"/>
+  <rect width="1200" height="150" fill="url(#ambient)"/>
+  <rect width="1200" height="150" fill="url(#micro)" opacity="0.35"/>
 
   <!-- Text -->
-  <text x="50%" y="100" text-anchor="middle"
+  <text x="50%" y="90"
+        text-anchor="middle"
         font-family="Segoe UI, Arial, sans-serif"
-        font-size="42"
-        font-weight="700"
-        fill="#ffffff">
-    👋 Hi, I'm Andrey
+        font-size="36"
+        font-weight="700">
+    <tspan fill="#E6FFF4">Hi, I'm </tspan>
+    <tspan fill="#5CFFB2">Andrey</tspan>
   </text>
-
 </svg>
