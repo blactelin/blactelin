@@ -1,1 +1,25 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="320" viewBox="0 0 1200 320">
+  <defs>
+    <!-- основной темно-зеленый градиент -->
+    <radialGradient id="bg" cx="50%" cy="45%" r="75%">
+      <stop offset="0%" stop-color="#0b5d2a"/>
+      <stop offset="100%" stop-color="#041a0d"/>
+    </radialGradient>
+
+    <!-- микроячейки как на клевере -->
+    <pattern id="micro" width="6" height="6" patternUnits="userSpaceOnUse">
+      <circle cx="3" cy="3" r="1" fill="#0f3d1f"/>
+    </pattern>
+
+    <!-- мягкая виньетка -->
+    <radialGradient id="vig" cx="50%" cy="50%" r="70%">
+      <stop offset="55%" stop-color="#000000" stop-opacity="0"/>
+      <stop offset="100%" stop-color="#000000" stop-opacity="0.55"/>
+    </radialGradient>
+  </defs>
+
+  <rect width="1200" height="320" fill="url(#bg)"/>
+  <rect width="1200" height="320" fill="url(#micro)" opacity="0.7"/>
+  <rect width="1200" height="320" fill="url(#vig)"/>
+</svg>
 
