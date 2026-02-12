@@ -26,12 +26,11 @@
   <rect width="1200" height="150" fill="url(#micro)" opacity="0.35"/>
 
   <!-- Text -->
-  <text x="50%" y="90"
-        text-anchor="middle"
-        font-family="Segoe UI, Arial, sans-serif"
-        font-size="36"
-        font-weight="700">
-    <tspan fill="#E6FFF4">Hi, I'm </tspan>
-    <tspan fill="#5CFFB2">Andrey</tspan>
-  </text>
+<text x="50%" y="90" text-anchor="middle"
+      font-family="Segoe UI, Arial, sans-serif"
+      font-size="36" font-weight="700">
+  <tspan fill="#F2FFF9">Hi, I'm </tspan>
+  <tspan fill="#5CFFB2">Andrey</tspan>
+</text>
+
 </svg>
