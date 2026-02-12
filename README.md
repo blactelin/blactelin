@@ -1,7 +1,7 @@
-
 <p align="center">
-  <img src="assets/profile.svg" width="100%" />
+  <img src="https://raw.githubusercontent.com/blactelin/blactelin/main/assets/profile.svg" width="100%" />
 </p>
+
 
 
 <!-- HERO -->
