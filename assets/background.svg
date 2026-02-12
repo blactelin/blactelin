@@ -6,7 +6,28 @@
       <stop offset="100%" stop-color="#03140b"/>
     </radialGradient>
 
-    <pattern id="micro" width="7" height="7" patternUnits="userSp
+    <pattern id="micro" width="7" height="7" patternUnits="userSpaceOnUse">
+      <circle cx="3.5" cy="3.5" r="1.05" fill="#0f3d1f"/>
+    </pattern>
 
+    <radialGradient id="vig" cx="50%" cy="50%" r="75%">
+      <stop offset="55%" stop-color="#000" stop-opacity="0"/>
+      <stop offset="100%" stop-color="#000" stop-opacity="0.55"/>
+    </radialGradient>
+  </defs>
 
+  <!-- Background -->
+  <rect width="1200" height="180" fill="url(#bg)"/>
+  <rect width="1200" height="180" fill="url(#micro)" opacity="0.55"/>
+  <rect width="1200" height="180" fill="url(#vig)"/>
 
+  <!-- Text -->
+  <text x="50%" y="100" text-anchor="middle"
+        font-family="Segoe UI, Arial, sans-serif"
+        font-size="42"
+        font-weight="700"
+        fill="#ffffff">
+    👋 Hi, I'm Andrey
+  </text>
+
+</svg>
