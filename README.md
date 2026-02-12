@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="assets/background.svg" width="100%" />
+  <img src="assets/profile.svg" width="100%" alt="Andrey Shytik profile"/>
 </p>
 
 
