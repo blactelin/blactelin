@@ -1,7 +1,7 @@
-<p align="center">
-  <img src="assets/profile.svg" width="100%" alt="Andrey Shytik profile"/>
-</p>
 
+<p align="center">
+  <img src="assets/profile.svg" width="100%" />
+</p>
 
 
 <!-- HERO -->
