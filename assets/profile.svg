@@ -1,46 +1,43 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="1200" height="980" viewBox="0 0 1200 980">
   <defs>
-    <!-- Background -->
-    <radialGradient id="bg" cx="50%" cy="30%" r="85%">
+    <!-- Background gradient -->
+    <radialGradient id="bg" cx="50%" cy="30%" r="90%">
       <stop offset="0%" stop-color="#0b6a34"/>
       <stop offset="55%" stop-color="#062414"/>
       <stop offset="100%" stop-color="#03140b"/>
     </radialGradient>
 
-    <!-- Microgrid (как "ячейки") -->
+    <!-- Soft spotlight (no filters) -->
+    <radialGradient id="spot" cx="50%" cy="25%" r="60%">
+      <stop offset="0%" stop-color="#18ff6a" stop-opacity="0.20"/>
+      <stop offset="45%" stop-color="#18ff6a" stop-opacity="0.08"/>
+      <stop offset="100%" stop-color="#18ff6a" stop-opacity="0"/>
+    </radialGradient>
+
+    <!-- Vignette (no filters) -->
+    <radialGradient id="vig" cx="50%" cy="50%" r="70%">
+      <stop offset="55%" stop-color="#000" stop-opacity="0"/>
+      <stop offset="100%" stop-color="#000" stop-opacity="0.55"/>
+    </radialGradient>
+
+    <!-- Microgrid like in clover image -->
     <pattern id="micro" width="7" height="7" patternUnits="userSpaceOnUse">
       <circle cx="3.5" cy="3.5" r="1.05" fill="#0f3d1f"/>
     </pattern>
 
-    <!-- Subtle noise (имитация зерна) -->
-    <filter id="grain" x="-20%" y="-20%" width="140%" height="140%">
-      <feTurbulence type="fractalNoise" baseFrequency="0.9" numOctaves="2" stitchTiles="stitch" result="n"/>
-      <feColorMatrix type="matrix" values="
-        1 0 0 0 0
-        0 1 0 0 0
-        0 0 1 0 0
-        0 0 0 0.08 0" in="n" result="a"/>
-      <feBlend mode="soft-light" in="SourceGraphic" in2="a"/>
-    </filter>
+    <!-- Subtle diagonal sheen (no filters) -->
+    <linearGradient id="sheen" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#fff" stop-opacity="0"/>
+      <stop offset="45%" stop-color="#fff" stop-opacity="0.05"/>
+      <stop offset="55%" stop-color="#fff" stop-opacity="0.02"/>
+      <stop offset="100%" stop-color="#fff" stop-opacity="0"/>
+    </linearGradient>
 
-    <!-- Glow -->
-    <filter id="glow" x="-40%" y="-40%" width="180%" height="180%">
-      <feGaussianBlur stdDeviation="10" result="b"/>
-      <feColorMatrix in="b" type="matrix" values="
-        0 0 0 0 0
-        0 1 0 0 0
-        0 0 0 0 0
-        0 0 0 0.55 0" result="g"/>
-      <feMerge>
-        <feMergeNode in="g"/>
-        <feMergeNode in="SourceGraphic"/>
-      </feMerge>
-    </filter>
-
-    <!-- Card shadow -->
-    <filter id="shadow" x="-20%" y="-20%" width="140%" height="140%">
-      <feDropShadow dx="0" dy="10" stdDeviation="16" flood-color="#000" flood-opacity="0.35"/>
-    </filter>
+    <!-- Card gradient -->
+    <linearGradient id="card" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#0a2b18" stop-opacity="0.75"/>
+      <stop offset="100%" stop-color="#051c10" stop-opacity="0.72"/>
+    </linearGradient>
 
     <style>
       .font { font-family: ui-sans-serif, system-ui, -apple-system, Segoe UI, Roboto, Arial, "Noto Sans", "Liberation Sans", sans-serif; }
@@ -48,56 +45,55 @@
 
       .h1 { font-size: 44px; font-weight: 800; fill: #E7FFF1; letter-spacing: 0.2px; }
       .h2 { font-size: 20px; font-weight: 700; fill: #CFFFE2; opacity: 0.95; }
-      .sub { font-size: 16px; font-weight: 500; fill: #A6F6C6; opacity: 0.9; }
-      .label { font-size: 14px; font-weight: 700; fill: #BFFFD8; opacity: 0.9; letter-spacing: 0.8px; text-transform: uppercase; }
-      .text { font-size: 15px; font-weight: 500; fill: #D7FFE8; opacity: 0.92; }
-      .muted { font-size: 13px; font-weight: 600; fill: #9DEDBE; opacity: 0.85; }
-      .chip { font-size: 13px; font-weight: 700; fill: #DFFFEF; }
-      .chipMuted { font-size: 12px; font-weight: 700; fill: #CFFFE2; opacity: 0.9; }
+      .sub { font-size: 16px; font-weight: 600; fill: #A6F6C6; opacity: 0.9; }
+      .label { font-size: 14px; font-weight: 800; fill: #BFFFD8; opacity: 0.9; letter-spacing: 0.9px; }
+      .text { font-size: 15px; font-weight: 550; fill: #D7FFE8; opacity: 0.92; }
+      .muted { font-size: 13px; font-weight: 650; fill: #9DEDBE; opacity: 0.86; }
 
       .stroke { stroke: rgba(166, 246, 198, 0.18); stroke-width: 1; }
       .divider { stroke: rgba(166, 246, 198, 0.14); stroke-width: 1; }
-      .card { fill: rgba(6, 36, 20, 0.62); }
       .chipBg { fill: rgba(11, 106, 52, 0.35); stroke: rgba(166, 246, 198, 0.22); stroke-width: 1; }
-      .btn { fill: rgba(11, 106, 52, 0.45); stroke: rgba(166, 246, 198, 0.28); stroke-width: 1; }
-      .btnText { font-size: 13px; font-weight: 800; fill: #E7FFF1; }
+      .btnBg { fill: rgba(11, 106, 52, 0.45); stroke: rgba(166, 246, 198, 0.28); stroke-width: 1; }
+      .btnText { font-size: 13px; font-weight: 850; fill: #E7FFF1; }
+      .chipText { font-size: 12px; font-weight: 800; fill: #DFFFEF; opacity: 0.95; }
       a:hover text { opacity: 1; }
     </style>
   </defs>
 
-  <!-- Background layers -->
+  <!-- Background -->
   <rect width="1200" height="980" fill="url(#bg)"/>
-  <rect width="1200" height="980" fill="url(#micro)" opacity="0.55"/>
-  <circle cx="600" cy="210" r="240" fill="#12ff6a" opacity="0.12" filter="url(#glow)"/>
-  <rect width="1200" height="980" filter="url(#grain)" opacity="1"/>
+  <rect width="1200" height="980" fill="url(#spot)"/>
+  <rect width="1200" height="980" fill="url(#micro)" opacity="0.58"/>
+  <rect width="1200" height="980" fill="url(#sheen)" opacity="1"/>
+  <rect width="1200" height="980" fill="url(#vig)"/>
 
-  <!-- Main container -->
-  <g filter="url(#shadow)">
-    <rect x="70" y="60" width="1060" height="860" rx="22" class="card stroke"/>
+  <!-- Main card (fake shadow with layered strokes, GitHub-safe) -->
+  <g>
+    <rect x="68" y="58" width="1064" height="864" rx="22" fill="rgba(0,0,0,0.25)"/>
+    <rect x="70" y="60" width="1060" height="860" rx="22" fill="url(#card)" class="stroke"/>
+    <rect x="74" y="64" width="1052" height="852" rx="20" fill="rgba(255,255,255,0.02)" class="stroke" opacity="0.55"/>
   </g>
 
   <!-- Header -->
   <g class="font">
-    <text x="120" y="140" class="h1">👋 Hi, I’m Andrey</text>
-    <text x="120" y="175" class="h2">🐘 Full-Stack PHP / Laravel Developer</text>
+    <text x="120" y="140" class="h1">Hi, I’m Andrey</text>
+    <text x="120" y="175" class="h2">Full-Stack PHP / Laravel Developer</text>
 
-    <!-- typing-like line (static but looks like terminal) -->
-    <rect x="120" y="200" width="620" height="44" rx="12" fill="rgba(3, 20, 11, 0.55)" stroke="rgba(166,246,198,0.18)"/>
-    <text x="140" y="228" class="mono" style="font-size:15px;font-weight:700;fill:#7CFFB0;">
-      Using AI to work smarter_
+    <!-- Terminal pill -->
+    <rect x="120" y="200" width="640" height="44" rx="12" fill="rgba(3, 20, 11, 0.55)" stroke="rgba(166,246,198,0.18)"/>
+    <text x="140" y="228" class="mono" style="font-size:15px;font-weight:800;fill:#7CFFB0;">
+      REST APIs | Auth | Databases | Clean Architecture_
     </text>
   </g>
 
-  <!-- Quick links buttons -->
+  <!-- Buttons -->
   <g class="font">
-    <!-- LinkedIn -->
     <a href="https://www.linkedin.com/in/andrey-shytik-59a02015a" target="_blank">
-      <rect x="780" y="202" width="150" height="42" rx="12" class="btn"/>
+      <rect x="780" y="202" width="150" height="42" rx="12" class="btnBg"/>
       <text x="855" y="228" text-anchor="middle" class="btnText">LinkedIn</text>
     </a>
-    <!-- GitHub -->
     <a href="https://github.com/blactelin" target="_blank">
-      <rect x="940" y="202" width="150" height="42" rx="12" class="btn"/>
+      <rect x="940" y="202" width="150" height="42" rx="12" class="btnBg"/>
       <text x="1015" y="228" text-anchor="middle" class="btnText">GitHub</text>
     </a>
   </g>
@@ -107,79 +103,68 @@
 
   <!-- Left column -->
   <g class="font">
-    <text x="120" y="320" class="label">About</text>
+    <text x="120" y="320" class="label">ABOUT</text>
     <text x="120" y="350" class="text">Full-Stack PHP / Laravel Developer focused on backend, REST APIs, and clean architecture.</text>
     <text x="120" y="374" class="text">Experienced with databases, Linux environments, and Docker-based workflows.</text>
     <text x="120" y="398" class="text">Open to new opportunities.</text>
 
     <line x1="110" y1="430" x2="560" y2="430" class="divider"/>
 
-    <text x="120" y="470" class="label">AI & Language</text>
+    <text x="120" y="470" class="label">AI &amp; LANGUAGE</text>
 
-    <!-- chips -->
-    <g>
-      <rect x="120" y="492" width="290" height="36" rx="12" class="chipBg"/>
-      <text x="265" y="515" text-anchor="middle" class="chip">AI Tools: Codex, AI Assistant</text>
+    <rect x="120" y="492" width="310" height="36" rx="12" class="chipBg"/>
+    <text x="275" y="515" text-anchor="middle" class="chipText">AI Tools: Codex, AI Assistant</text>
 
-      <rect x="420" y="492" width="220" height="36" rx="12" class="chipBg"/>
-      <text x="530" y="515" text-anchor="middle" class="chip">English: B1</text>
-    </g>
+    <rect x="440" y="492" width="200" height="36" rx="12" class="chipBg"/>
+    <text x="540" y="515" text-anchor="middle" class="chipText">English: B1</text>
 
     <line x1="110" y1="560" x2="560" y2="560" class="divider"/>
 
-    <text x="120" y="600" class="label">Contacts</text>
+    <text x="120" y="600" class="label">CONTACTS</text>
 
     <g class="muted">
-      <a href="mailto:blactelin@gmail.com" target="_blank">
-        <text x="120" y="630">✉️ blactelin@gmail.com</text>
-      </a>
-      <a href="https://t.me/YOUR_TELEGRAM" target="_blank">
-        <text x="120" y="654">💬 Telegram</text>
-      </a>
-      <a href="https://wa.me/YOUR_PHONE" target="_blank">
-        <text x="120" y="678">📱 WhatsApp</text>
-      </a>
-      <a href="https://www.linkedin.com/in/andrey-shytik-59a02015a" target="_blank">
-        <text x="120" y="702">🔗 LinkedIn</text>
-      </a>
+      <a href="mailto:blactelin@gmail.com" target="_blank"><text x="120" y="630">Email: blactelin@gmail.com</text></a>
+      <a href="https://t.me/YOUR_TELEGRAM" target="_blank"><text x="120" y="654">Telegram</text></a>
+      <a href="https://wa.me/YOUR_PHONE" target="_blank"><text x="120" y="678">WhatsApp</text></a>
+      <a href="https://www.linkedin.com/in/andrey-shytik-59a02015a" target="_blank"><text x="120" y="702">LinkedIn</text></a>
     </g>
   </g>
 
   <!-- Right column -->
   <g class="font">
-    <text x="620" y="320" class="label">Tech Stack</text>
+    <text x="620" y="320" class="label">TECH STACK</text>
 
-    <!-- Tech chips grid -->
+    <!-- Chips -->
     <g>
       <!-- row 1 -->
-      <rect x="620" y="342" width="86" height="34" rx="12" class="chipBg"/><text x="663" y="364" text-anchor="middle" class="chipMuted">PHP</text>
-      <rect x="712" y="342" width="110" height="34" rx="12" class="chipBg"/><text x="767" y="364" text-anchor="middle" class="chipMuted">Laravel</text>
-      <rect x="828" y="342" width="120" height="34" rx="12" class="chipBg"/><text x="888" y="364" text-anchor="middle" class="chipMuted">Composer</text>
-      <rect x="954" y="342" width="70" height="34" rx="12" class="chipBg"/><text x="989" y="364" text-anchor="middle" class="chipMuted">Git</text>
-      <rect x="1030" y="342" width="80" height="34" rx="12" class="chipBg"/><text x="1070" y="364" text-anchor="middle" class="chipMuted">GitHub</text>
+      <rect x="620" y="342" width="86" height="34" rx="12" class="chipBg"/><text x="663" y="364" text-anchor="middle" class="chipText">PHP</text>
+      <rect x="712" y="342" width="110" height="34" rx="12" class="chipBg"/><text x="767" y="364" text-anchor="middle" class="chipText">Laravel</text>
+      <rect x="828" y="342" width="120" height="34" rx="12" class="chipBg"/><text x="888" y="364" text-anchor="middle" class="chipText">Composer</text>
+      <rect x="954" y="342" width="70" height="34" rx="12" class="chipBg"/><text x="989" y="364" text-anchor="middle" class="chipText">Git</text>
+      <rect x="1030" y="342" width="80" height="34" rx="12" class="chipBg"/><text x="1070" y="364" text-anchor="middle" class="chipText">GitHub</text>
 
       <!-- row 2 -->
-      <rect x="620" y="384" width="95" height="34" rx="12" class="chipBg"/><text x="668" y="406" text-anchor="middle" class="chipMuted">MySQL</text>
-      <rect x="721" y="384" width="125" height="34" rx="12" class="chipBg"/><text x="783" y="406" text-anchor="middle" class="chipMuted">PostgreSQL</text>
-      <rect x="852" y="384" width="115" height="34" rx="12" class="chipBg"/><text x="909" y="406" text-anchor="middle" class="chipMuted">MongoDB</text>
+      <rect x="620" y="384" width="95" height="34" rx="12" class="chipBg"/><text x="668" y="406" text-anchor="middle" class="chipText">MySQL</text>
+      <rect x="721" y="384" width="125" height="34" rx="12" class="chipBg"/><text x="783" y="406" text-anchor="middle" class="chipText">PostgreSQL</text>
+      <rect x="852" y="384" width="115" height="34" rx="12" class="chipBg"/><text x="909" y="406" text-anchor="middle" class="chipText">MongoDB</text>
 
       <!-- row 3 -->
-      <rect x="620" y="426" width="90" height="34" rx="12" class="chipBg"/><text x="665" y="448" text-anchor="middle" class="chipMuted">Linux</text>
-      <rect x="716" y="426" width="98" height="34" rx="12" class="chipBg"/><text x="765" y="448" text-anchor="middle" class="chipMuted">Docker</text>
-      <rect x="820" y="426" width="98" height="34" rx="12" class="chipBg"/><text x="869" y="448" text-anchor="middle" class="chipMuted">Nginx</text>
-      <rect x="924" y="426" width="98" height="34" rx="12" class="chipBg"/><text x="973" y="448" text-anchor="middle" class="chipMuted">Apache</text>
+      <rect x="620" y="426" width="90" height="34" rx="12" class="chipBg"/><text x="665" y="448" text-anchor="middle" class="chipText">Linux</text>
+      <rect x="716" y="426" width="98" height="34" rx="12" class="chipBg"/><text x="765" y="448" text-anchor="middle" class="chipText">Docker</text>
+      <rect x="820" y="426" width="98" height="34" rx="12" class="chipBg"/><text x="869" y="448" text-anchor="middle" class="chipText">Nginx</text>
+      <rect x="924" y="426" width="98" height="34" rx="12" class="chipBg"/><text x="973" y="448" text-anchor="middle" class="chipText">Apache</text>
 
       <!-- row 4 -->
-      <rect x="620" y="468" width="118" height="34" rx="12" class="chipBg"/><text x="679" y="490" text-anchor="middle" class="chipMuted">JavaScript</text>
-      <rect x="744" y="468" width="118" height="34" rx="12" class="chipBg"/><text x="803" y="490" text-anchor="middle" class="chipMuted">Bootstrap</text>
-      <rect x="868" y="468" width="98" height="34" rx="12" class="chipBg"/><text x="917" y="490" text-anchor="middle" class="chipMuted">NeoVim</text>
-      <rect x="972" y="468" width="80" height="34" rx="12" class="chipBg"/><text x="1012" y="490" text-anchor="middle" class="chipMuted">Bash</text>
-      <rect x="1058" y="468" width="52" height="34" rx="12" class="chipBg"/><text x="1084" y="490" text-anchor="middle" class="chipMuted">Zsh</text>
+      <rect x="620" y="468" width="118" height="34" rx="12" class="chipBg"/><text x="679" y="490" text-anchor="middle" class="chipText">JavaScript</text>
+      <rect x="744" y="468" width="118" height="34" rx="12" class="chipBg"/><text x="803" y="490" text-anchor="middle" class="chipText">Bootstrap</text>
+      <rect x="868" y="468" width="98" height="34" rx="12" class="chipBg"/><text x="917" y="490" text-anchor="middle" class="chipText">NeoVim</text>
+      <rect x="972" y="468" width="80" height="34" rx="12" class="chipBg"/><text x="1012" y="490" text-anchor="middle" class="chipText">Bash</text>
+      <rect x="1058" y="468" width="52" height="34" rx="12" class="chipBg"/><text x="1084" y="490" text-anchor="middle" class="chipText">Zsh</text>
     </g>
 
     <line x1="610" y1="540" x2="1090" y2="540" class="divider"/>
 
-    <text x="620" y="580" class="label">Featured Projects</text>
+    <text x="620" y="580" class="label">FEATURED PROJECTS</text>
     <text x="620" y="610" class="text">• Laravel REST API — Auth (JWT/Sanctum), CRUD, clean architecture</text>
     <text x="620" y="634" class="text">• Full-Stack Laravel App — Backend + UI (Blade/Bootstrap/Vue)</text>
     <text x="620" y="658" class="text">• Database-focused Project — MySQL / PostgreSQL / MongoDB</text>
@@ -187,12 +172,11 @@
 
     <line x1="610" y1="720" x2="1090" y2="720" class="divider"/>
 
-    <text x="620" y="760" class="label">GitHub Activity</text>
+    <text x="620" y="760" class="label">GITHUB ACTIVITY</text>
     <text x="620" y="790" class="muted">Snake animation stays below in README (it’s dynamic).</text>
   </g>
 
-  <!-- Footer note -->
   <text x="600" y="940" text-anchor="middle" class="font muted" opacity="0.75">
-    Built with SVG • Dark Green Microgrid Theme
+    Dark Green Microgrid Theme • GitHub-safe SVG
   </text>
 </svg>
