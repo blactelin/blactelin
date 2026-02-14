@@ -3,7 +3,6 @@
   <img src="https://raw.githubusercontent.com/blactelin/blactelin/main/assets/background.svg" width="100%" />
 </p>
 
-
 <!-- HERO -->
 
 <h3 align="center">🐘 Full-Stack PHP / Laravel Developer</h3>
@@ -11,6 +10,7 @@
 <p align="center">
  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=22&pause=900&center=true&vCenter=true&width=900&color=FFD700&lines=Full-Stack+PHP+%2B+Laravel+Developer;REST+APIs+%7C+Auth+%7C+Databases;Backend+Logic+%2B+Clean+UI;Using+AI+to+work+smarter" />
 </p>
+
 
 ### 👨‍💻 About Me
 
