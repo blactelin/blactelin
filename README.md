@@ -45,8 +45,7 @@ Open to new opportunities.
 
 
 ### 🤖 AI & Language
-![AI Tools](https://img.shields.io/badge/-AI%20Tools%3A%20Codex%2C%20AI%20Assistant-333?style=for-the-badge) 
-[![AI Tools](https://img.shields.io/badge/-AI%20Tools%3A%20Copilot%2C%20LLMs-333?style=for-the-badge)](https://github.com/features/copilot)
+![AI Tools](https://img.shields.io/badge/-AI%20Tools%3A%20Codex%2C%20AI%20Assistant-333?style=for-the-badge)(https://img.shields.io/badge/-AI%20Tools%3A%20Copilot%2C%20LLMs-333?style=for-the-badge)](https://github.com/features/copilot)
 ![English](https://img.shields.io/badge/-English%3A%20Intermediate%20(B1)-333?style=for-the-badge)
 
 ### 📌 Featured Projects
