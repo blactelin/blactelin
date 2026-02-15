@@ -20,7 +20,7 @@ Open to new opportunities.
 
 ### 🧰 My Tech Stack
 
-![PHP](https://img.shields.io/badge/PHP-2F3437?style=for-the-badge&logo=php&logoColor=777BB4)
+[![PHP](https://img.shields.io/badge/PHP-2F3437?style=for-the-badge&logo=php&logoColor=777BB4)](https://www.php.net/)
 ![Laravel](https://img.shields.io/badge/Laravel-2F3437?style=for-the-badge&logo=laravel&logoColor=FF2D20)
 ![Composer](https://img.shields.io/badge/Composer-2F3437?style=for-the-badge&logo=composer&logoColor=885630)
 ![Git](https://img.shields.io/badge/Git-2F3437?style=for-the-badge&logo=git&logoColor=F05032)
