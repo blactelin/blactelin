@@ -21,27 +21,26 @@ Open to new opportunities.
 ### 🧰 My Tech Stack
 
 [![PHP](https://img.shields.io/badge/PHP-2F3437?style=for-the-badge&logo=php&logoColor=777BB4)](https://www.php.net/)
-![Laravel](https://img.shields.io/badge/Laravel-2F3437?style=for-the-badge&logo=laravel&logoColor=FF2D20)
-![Composer](https://img.shields.io/badge/Composer-2F3437?style=for-the-badge&logo=composer&logoColor=885630)
-![Git](https://img.shields.io/badge/Git-2F3437?style=for-the-badge&logo=git&logoColor=F05032)
-![GitHub](https://img.shields.io/badge/GitHub-2F3437?style=for-the-badge&logo=github&logoColor=ffffff)
+[![Laravel](https://img.shields.io/badge/Laravel-2F3437?style=for-the-badge&logo=laravel&logoColor=FF2D20)](https://laravel.com/)
+[![Composer](https://img.shields.io/badge/Composer-2F3437?style=for-the-badge&logo=composer&logoColor=885630)](https://getcomposer.org/)
+[![Git](https://img.shields.io/badge/Git-2F3437?style=for-the-badge&logo=git&logoColor=F05032)](https://git-scm.com/)
+[![GitHub](https://img.shields.io/badge/GitHub-2F3437?style=for-the-badge&logo=github&logoColor=ffffff)](https://github.com/)
 
-![MySQL](https://img.shields.io/badge/MySQL-2F3437?style=for-the-badge&logo=mysql&logoColor=4479A1)
-![PostgreSQL](https://img.shields.io/badge/PostgreSQL-2F3437?style=for-the-badge&logo=postgresql&logoColor=336791)
-![MongoDB](https://img.shields.io/badge/MongoDB-2F3437?style=for-the-badge&logo=mongodb&logoColor=47A248)
+[![MySQL](https://img.shields.io/badge/MySQL-2F3437?style=for-the-badge&logo=mysql&logoColor=4479A1)](https://www.mysql.com/)
+[![PostgreSQL](https://img.shields.io/badge/PostgreSQL-2F3437?style=for-the-badge&logo=postgresql&logoColor=336791)](https://www.postgresql.org/)
+[![MongoDB](https://img.shields.io/badge/MongoDB-2F3437?style=for-the-badge&logo=mongodb&logoColor=47A248)](https://www.mongodb.com/)
 
-![Linux](https://img.shields.io/badge/Linux-2F3437?style=for-the-badge&logo=linux&logoColor=FCC624)
-![Docker](https://img.shields.io/badge/Docker-2F3437?style=for-the-badge&logo=docker&logoColor=2496ED)
-![Nginx](https://img.shields.io/badge/Nginx-2F3437?style=for-the-badge&logo=nginx&logoColor=009639)
-![Apache](https://img.shields.io/badge/Apache-2F3437?style=for-the-badge&logo=apache&logoColor=D22128)
+[![Linux](https://img.shields.io/badge/Linux-2F3437?style=for-the-badge&logo=linux&logoColor=FCC624)](https://www.kernel.org/)
+[![Docker](https://img.shields.io/badge/Docker-2F3437?style=for-the-badge&logo=docker&logoColor=2496ED)](https://www.docker.com/)
+[![Nginx](https://img.shields.io/badge/Nginx-2F3437?style=for-the-badge&logo=nginx&logoColor=009639)](https://nginx.org/)
+[![Apache](https://img.shields.io/badge/Apache-2F3437?style=for-the-badge&logo=apache&logoColor=D22128)](https://httpd.apache.org/)
 
-![JavaScript](https://img.shields.io/badge/JavaScript-2F3437?style=for-the-badge&logo=javascript&logoColor=F7DF1E)
-![Bootstrap](https://img.shields.io/badge/Bootstrap-2F3437?style=for-the-badge&logo=bootstrap&logoColor=7952B3)
+[![JavaScript](https://img.shields.io/badge/JavaScript-2F3437?style=for-the-badge&logo=javascript&logoColor=F7DF1E)](https://developer.mozilla.org/en-US/docs/Web/JavaScript)
+[![Bootstrap](https://img.shields.io/badge/Bootstrap-2F3437?style=for-the-badge&logo=bootstrap&logoColor=7952B3)](https://getbootstrap.com/)
 
-![NeoVim](https://img.shields.io/badge/NeoVim-2F3437?style=for-the-badge&logo=neovim&logoColor=57A143)
-![Bash](https://img.shields.io/badge/Bash-2F3437?style=for-the-badge&logo=gnubash&logoColor=4EAA25)
-![Zsh](https://img.shields.io/badge/Zsh-2F3437?style=for-the-badge&logoColor=89E051)
-
+[![NeoVim](https://img.shields.io/badge/NeoVim-2F3437?style=for-the-badge&logo=neovim&logoColor=57A143)](https://neovim.io/)
+[![Bash](https://img.shields.io/badge/Bash-2F3437?style=for-the-badge&logo=gnubash&logoColor=4EAA25)](https://www.gnu.org/software/bash/)
+[![Zsh](https://img.shields.io/badge/Zsh-2F3437?style=for-the-badge&logoColor=89E051)](https://www.zsh.org/)
 
 
 ### 🤖 AI & Language
