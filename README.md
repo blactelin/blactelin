@@ -56,7 +56,7 @@ Open to new opportunities.
 ### 📬 Contacts
 [![LinkedIn](https://img.shields.io/badge/-LinkedIn-333?style=for-the-badge&logo=linkedin&logoColor=0A66C2)](https://www.linkedin.com/in/andrey-shytik-59a02015a)
 [![Telegram](https://img.shields.io/badge/-Telegram-333?style=for-the-badge&logo=telegram&logoColor=27A0D9)](https://t.me/blactelin_dev)
-[![WhatsApp](https://img.shields.io/badge/-WhatsApp-333?style=for-the-badge&logo=whatsapp&logoColor=25D366)](https://wa.me/blactelin)
+[![WhatsApp](https://img.shields.io/badge/-WhatsApp-333?style=for-the-badge&logo=whatsapp&logoColor=25D366)](https://wa.me/380977272215)
 [![Gmail](https://img.shields.io/badge/-Gmail-333?style=for-the-badge&logo=gmail&logoColor=EA4335)](mailto:blactelin@gmail.com)
 [![GitHub](https://img.shields.io/badge/-GitHub-333?style=for-the-badge&logo=github&logoColor=fff)](https://github.com/blactelin)
 
